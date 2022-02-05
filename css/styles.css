@@ -12,8 +12,6 @@ rgba(255, 255, 255, 0.6);
     #757575
     #F5F4FA
  */
-/* шрифты */
-/*  */
 :root {
   --main-color: #ffffff;
   --secondary-color: #2196f3;
@@ -23,7 +21,7 @@ rgba(255, 255, 255, 0.6);
   --seconary-text-color: #757575;
 }
 
-.body {
+body {
   background-color: var(--main-color);
   font-family: Roboto, sans-serif;
 }
@@ -37,7 +35,6 @@ rgba(255, 255, 255, 0.6);
 /* ======START HEADER========= */
 
 .nav-list-link {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +48,6 @@ rgba(255, 255, 255, 0.6);
 }
 
 .contact-list-link {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +60,6 @@ rgba(255, 255, 255, 0.6);
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -88,11 +83,10 @@ rgba(255, 255, 255, 0.6);
   background-color: var(--background-footer);
 }
 .main-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -104,7 +98,7 @@ rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   display: flex;
   align-items: center;
@@ -129,19 +123,15 @@ rgba(255, 255, 255, 0.6);
 /* ==1 SECTION=== */
 
 .section-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 .features-list-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -151,8 +141,6 @@ rgba(255, 255, 255, 0.6);
 }
 
 .features-list-content {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -168,29 +156,21 @@ rgba(255, 255, 255, 0.6);
 }
 /* =====3 section==== */
 .team-list-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 .team-list-description {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--seconary-text-color);
 }
 /* =====footer==== */
@@ -202,44 +182,38 @@ rgba(255, 255, 255, 0.6);
   color: var(--main-color);
 }
 .adress-map {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: var(--main-color);
 }
+
 .adress-mail,
 .adress-number {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* ====portfolio main==== */
 
 .projects-list-item {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 
@@ -249,26 +223,19 @@ rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-projects-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
-
   color: var(--primary-text-color);
 }
+
 .portfolio-projects-description {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
-
   letter-spacing: 0.03em;
-
   color: var(--seconary-text-color);
 }
