@@ -1,17 +1,3 @@
-/* цвета шрифтов 
-rgba(255, 255, 255, 0.6);
-#FFFFFF
-#2196F3
-#757575
-#212121
-*/
-/* цвета оформления
-/*  #2196F3
-    #2F303A
-    #ffffff
-    #757575
-    #F5F4FA
- */
 :root {
   --main-color: #ffffff;
   --secondary-color: #2196f3;
@@ -60,19 +46,17 @@ body {
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 .logo-studio {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -83,11 +67,9 @@ body {
   background-color: var(--background-footer);
 }
 .main-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -96,10 +78,9 @@ body {
 
 .modal-button {
   font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -123,7 +104,7 @@ body {
 /* ==1 SECTION=== */
 
 .section-name {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -132,7 +113,7 @@ body {
 }
 
 .features-list-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -141,10 +122,8 @@ body {
 }
 
 .features-list-content {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--seconary-text-color);
 }
@@ -159,16 +138,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .team-list-description {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--seconary-text-color);
@@ -181,25 +157,22 @@ body {
 .logo-studio-footer {
   color: var(--main-color);
 }
-.adress-map {
-  font-family: Roboto, sans-serif;
+
+address {
   font-style: normal;
-  font-weight: normal;
+}
+
+.adress-map {
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .adress-mail,
 .adress-number {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -210,32 +183,31 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-.projects-list-item:active {
+.projects-list-item:active,
+.projects-list-item:hover,
+.projects-list-item:focus {
   color: var(--main-color);
   background-color: var(--secondary-color);
 }
 
 .portfolio-projects-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
 .portfolio-projects-description {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--seconary-text-color);
 }
